@@ -1,0 +1,30 @@
+h1
+{
+    color:green;
+    text-align:center;
+    font-family:Times New Roman, sans-serif;
+    font-size:44px;
+    font-weight:bold;
+    font-style:italic;
+
+}
+p
+{
+    color:blue;
+    text-align:center;
+}
+body
+
+{
+    
+    border: 2px solid black;
+}
+button
+{
+    background-color:green;
+    color:white;
+    padding:10px 20px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
+}
