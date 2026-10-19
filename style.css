@@ -14,8 +14,10 @@ p
     text-align:center;
 }
 body
-
 {
+   
+    font-family:Arial, sans-serif;
+
     
     border: 2px solid black;
 }
@@ -28,3 +30,4 @@ button
     font-size:16px;
     cursor:pointer;
 }
+
