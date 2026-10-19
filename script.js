@@ -17,6 +17,17 @@ function guessNumber()
         alert("Too high! Try again.");
     }
 
+    let attempts =0;
+    if( userGuess!=value )
+    {
+        attempts++;
+    }
+    document.getElementById("attempts").innerHTML = attempts;
+
+   
+
+
+
 }
 
 
