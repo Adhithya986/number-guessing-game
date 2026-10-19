@@ -18,10 +18,13 @@ function guessNumber()
     }
 
     let attempts =0;
+   
     if( userGuess!=value )
     {
-        attempts++;
+        attempts=attempts+1;
+
     }
+
     document.getElementById("attempts").innerHTML = attempts;
 
    
