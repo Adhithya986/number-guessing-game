@@ -29,6 +29,11 @@ function guessNumber()
     document.getElementById("attempts").innerHTML = attempts;
 }
 
-
+function restartGame()
+{
+    value=Math.floor(Math.random()*100+1);
+    attempts=0;
+    document.getElementById("attempts").innerHTML=attempts;
+}
 
 
