@@ -1,6 +1,8 @@
 
 let value=Math.floor(Math.random()*100+1);
 
+let attempts =0;
+
 function guessNumber()
 {
     let userGuess = document.getElementById("num").value;
@@ -17,7 +19,6 @@ function guessNumber()
         alert("Too high! Try again.");
     }
 
-    let attempts =0;
    
     if( userGuess!=value )
     {
@@ -26,11 +27,6 @@ function guessNumber()
     }
 
     document.getElementById("attempts").innerHTML = attempts;
-
-   
-
-
-
 }
 
 
